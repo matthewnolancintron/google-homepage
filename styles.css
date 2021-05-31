@@ -1,8 +1,54 @@
 .flex_container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.google_logo {
+.navbar {
+    background-color:transparent;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+
+.nav-items {
+    display: grid;
+    grid-template-columns: repeat(2,2fr) 21fr 2fr 3fr 2fr 4fr;
+    justify-items: start;
+    align-items:center;
+    list-style-type: none;
+    background-color: transparent;
+    font-size: .8rem;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+  
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+}
+
+.gridWidget a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gridWidget a{
+    align-self: center;
+    color: #555555
     
+}
+
+
+.signIn button{
+    background-color: #4285f4;
+    border: solid 4px #4285f4;
+    color: white;
+    size: 23vh;
+    font-weight: bolder;
 }

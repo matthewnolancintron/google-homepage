@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
 </head>
 <body>
     <div class="flex_container">
+        <nav class="navbar">
+            <ul class="nav-items">
+                <li class="about"><a href="">About</a></li>
+                <li class="store"><a href="">Store</a></li>
+                <li>
+                <!--empty item,
+                    for center gap in the nav bar.
+                    I'm using css grid and the template columns
+                    to place the items
+                    note to self: find other methods and compare 
+                --></li>
+                <li class="gmail"><a href="">Gmail</a></li>
+                <li class="images"><a href="">Images</a></li>
+                <li class="gridWidget">
+                    <a class="material-icons">apps</a>
+                </li>
+                <li class="signIn"><button>Sign in</button></li>
+            </ul>
+        </nav>
         <img class="google_logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <input class="search" type="search">
     </div>
@@ -15,13 +37,7 @@
 </html>
 
 <!--
-    todo:
-    make navbar acroos the top
-    first building the content and the trying
-    to postion it
-
-    use this if lost:
-    https://www.w3schools.com/css/css_navbar.asp
+    todo: make the search bar
 -->
 
 <!--
