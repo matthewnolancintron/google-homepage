@@ -130,5 +130,39 @@ center google and the search bar in the page
     background-color: #eeeeee;
     width: 15%;
     height: 8.5vh;
+    z-index: 1;
+
+
 }
+
+footer{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    position: fixed;
+    bottom: 0;
+    overflow: scroll;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(3,2fr) 7fr repeat(3,2fr);
+    width:100%;
+    justify-items: center;
+    align-items:baseline;
+    padding-top:1%;
+    list-style-type: none;
+    background-color:#eeeeee;
+    color: #555555;
+    font-size: .8rem;
+    margin: 0;
+    white-space: nowrap;
+    padding-bottom: 2vh;
+}
+
+footer ul a{
+    color:#555555;
+    text-decoration: none;
+}
+
 
