@@ -9,6 +9,7 @@
     width:100%;
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 21vh;
    
 }
 
@@ -76,8 +77,7 @@ center google and the search bar in the page
     align-items: center;
     align-content: center;
     width: 100%;
-    margin: 10vh 25vw;
-    padding: 1vh;
+    margin: 3vh 25vw;
     border-radius: 2vw;
     border-color: #DDDDDD;
     border-width: 0.07em;
