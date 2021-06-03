@@ -26,7 +26,6 @@
     text-decoration: none;
     color: black;
     font-weight: lighter;
-  
 }
 
 .nav-items a:hover {
@@ -47,8 +46,78 @@
 
 .signIn button{
     background-color: #4285f4;
-    border: solid 4px #4285f4;
+    border: solid 1vw #4285f4;
     color: white;
     size: 23vh;
     font-weight: bolder;
+}
+/*
+todo adjust layout spacing 
+
+google logo and search bar should be spaced further away from the top navigation
+
+font size of navigation should be a little bit smaller
+
+larger space in the center of the nav bar 
+
+about in the nav bar should be closer to the edge of the browser window.
+*/
+
+
+/*
+add icons into the search bar
+center google and the search bar in the page
+*/
+.search{
+    display:grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 10vh 25vw;
+    padding: 1vh;
+    border-radius: 2vw;
+    border-color: #DDDDDD;
+    border-width: 0.07em;
+    outline: none;
+    border-style: solid;
+    
+}
+
+.search-bar{
+    width: 100%;
+    border-radius: 2vw;
+    padding: 2vh;
+    outline: none;
+    border: none;
+}
+
+.search:hover{
+    /*add shadow on hover*/
+    box-shadow: lightgray 0px 1px 5px;
+}
+
+.search_icon{
+   z-index: 1;
+   color: lightslategray;
+}
+
+.mic{
+   z-index: 1;
+    /*attemp at a google colors mic icon.
+    could attempt to recreate icon with svg and color
+    the parts individual
+    stem bar top
+    stem = green
+    bar is red to yellow gradient
+    top is blue
+    */
+   background: -webkit-linear-gradient(rgb(25, 136, 201) 55%,rgba(0,0,255,0.1) 55%),
+               -webkit-linear-gradient(217deg,rgba(255,0,0,0.8), 60%,rgba(255,0,0,0.1) 60%),               
+               -webkit-linear-gradient(127deg,rgba(255,255,0,0.8) 40%, rgba(255,255,0,0.1) 40%),
+               -webkit-linear-gradient(0.50turn,rgba(0,200,0,0.9) 50%, rgba(0,256,0,0.1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
