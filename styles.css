@@ -121,3 +121,14 @@ center google and the search bar in the page
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.google_search_buttons{
+    font-size: 0.85rem;
+    margin: 4vh 1vw;
+    border: none;
+    color: #555555;
+    background-color: #eeeeee;
+    width: 15%;
+    height: 8.5vh;
+}
+
