@@ -141,13 +141,11 @@ footer{
     grid-template-columns: 1fr; 
     position: fixed;
     bottom: 0;
-    overflow: scroll;
 }
 
 footer ul {
     display: grid;
     grid-template-columns: repeat(3,2fr) 7fr repeat(3,2fr);
-    width:100%;
     justify-items: center;
     align-items:baseline;
     padding-top:1%;
@@ -157,7 +155,7 @@ footer ul {
     font-size: .8rem;
     margin: 0;
     white-space: nowrap;
-    padding-bottom: 2vh;
+    padding-bottom: 0px;
 }
 
 footer ul a{
@@ -168,4 +166,3 @@ footer ul a{
 footer ul a:hover{
     text-decoration: underline;
 }
-
